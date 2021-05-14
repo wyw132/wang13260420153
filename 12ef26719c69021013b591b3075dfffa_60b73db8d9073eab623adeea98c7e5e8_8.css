@@ -1,0 +1,61 @@
+body{
+    font-size: 12px;
+    background-color: rgb(0, 0, 0);
+    
+}
+
+body p{
+    text-indent: 2em;
+}
+
+body h3{
+    font-size: 20px;
+}
+#none li{
+    list-style:none;
+    
+}
+
+body ul li{
+    list-style-image: url(icon1.gif);
+    margin: 6px;   /*列表边距 */
+}
+
+body ul li a{
+    text-decoration: none;
+}
+
+body a:link{
+     color: blue;
+}
+
+body a:hover{
+    color: rgb(111, 102, 151);
+}
+
+body a:active{
+    color: rgb(197, 121, 121);
+}
+
+body a:visited{
+    color: rgb(198, 211, 123);
+}
+.right{
+    text-align: right;
+}
+
+.back{
+    background-color: rgb(193, 230, 255);
+    font-size: 13px;
+}
+
+#bold14{
+    font-size: 14px;
+    font-weight: bold;
+}
+.backimg{
+    background-image: url(leftbg.jpg);
+    background-repeat: no-repeat;
+    font-weight: bold;
+    font-size: 13px;
+}
